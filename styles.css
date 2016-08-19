@@ -1,0 +1,100 @@
+div.weatherapp{
+
+	background-color: #458;
+	text-align: center;
+	padding-top: 20px;
+
+}
+div.weatherapp p{
+	color: white;
+}
+body {
+	background-color: white;
+	font-family: courier;  
+
+}
+ul.topNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li{
+    float: left;
+}
+li.icons{
+	float: right;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+#primaryHeader{
+	height: auto;
+	width: 100%;
+	position: relative;
+}
+#oasis{
+	position: relative;
+	width: 100%;
+
+}
+#hiSam{
+	left: 0;
+	position: absolute;
+	text-align: center;
+	top: 30px;
+	width: 100%;
+	color: black;
+}
+
+#me{
+	margin: 50px 150px 50px 150px;
+}
+
+#resume{
+	margin-top: 0px;
+	margin-bottom: 100px;
+	border-color: aqua;
+}
+
+
+table{
+	background-color: green;
+	text-align: center;
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+table tr td img {
+	width: 120px;
+	height: auto;
+}
+
+#cityInput{
+	padding-bottom: 10px;
+}
+
+#mapid { 
+	height: 180px; 
+}
+
+
+/* removes Brand space from navbar */
+

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en-US">
+
+   <head>
+     <title>My First Website</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="description" content="Sam Lesem's first website">
+     <meta name="keywords" content="First Website, Sam Lesem, Samuel Lesem, Lesem">
+     <meta name="author" content="Sam Lesem">
+     <script type="text/javascript" src="js/jquery.min.js"></script>
+     <script type="text/javascript" src="weatherApp.js"> </script>
+     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+     <link rel="stylesheet" href="fontAwesome/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="styles.css">
+     <script>
+
+     </script>
+   </head>
+
+<body>
+
+    <nav>    
+        <ul class="topNav" id="myTopnav">
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="weather.html">Weather App</a></li>
+            <li class="icons"><a href="https://www.linkedin.com/in/samuel-lesem-a355786a"><i class="fa fa-lg fa-linkedin-square" aria-hidden="true"></i></a></li>
+            <li class="icons"><a href="#"><i class="fa fa-lg fa-google-plus"></i></a></li>
+            <li class="icons"><a href="https://github.com/lesesb12"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a></l
+        </ul>
+    </nav>
+
+   <!-- <button id = "getIt" onclick = "gettingJSON()">Get JSON</button> -->
+    <h2>Weather Application in JavaScript</h2>
+
+    <div class="weatherapp" id='weather'>
+        <form id="cityInput">
+            Enter City Name:
+            <input id="cityName" type="text">
+        </form>
+        <button type="button" class="btn btn-default" id="getWeather">Get Weather</button>
+        <p> Temp: <span id="showTemp"></span></p>
+        <p> Conditions: <span id="showConditions"></span> <span id="weatherIcon"> </span></p>
+        <p> Wind Speed: <span id="showWind"></span></p>
+        <hr>
+        <!--<button id="shortForecast">Get 5 Day Forecast</button>-->
+        <p> <span id="dayOne"> </span> <span id="dayOneIcon"> </span></p>
+        <p> <span id="dayTwo"> </span> <span id="dayTwoIcon"> </span></p>
+        <p> <span id="dayThree"> </span> <span id="dayThreeIcon"> </span></p>
+        <p> <span id="dayFour"> </span> <span id="dayFourIcon"> </span></p>
+        <p> <span id="dayFive"> </span> <span id="dayFiveIcon"> </span></p>
+    </div>
+
+
+
+    <script type="text/javascript" src="weatherApp.js"> </script>
+    <!--<script src="js/bootstrap.min.js"></script>-->
+</body>
+
+<footer>
+
+</footer>
+</html>
