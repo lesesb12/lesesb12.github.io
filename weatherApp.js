@@ -13,6 +13,8 @@ $(document).ready(function(){
 			url: weatherUrl,
 			data:{
 				q: $('#cityName').val(),
+				data: 'GET',
+				datatype: 'jsonp',
 				units: 'imperial',
 				appid: api_key
 			},
@@ -35,6 +37,8 @@ $(document).ready(function(){
 			url: forecastUrl,
 			data:{
 				q: $('#cityName').val(),
+				data: 'GET',
+				datatype: 'jsonp',
 				units:'imperial',
 				appid: api_key
 			},
