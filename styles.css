@@ -84,6 +84,9 @@ h1 {
 h2 {
 	text-align: center;
 }
+h6{
+	text-align: center;
+}
 table tr td img {
 	width: 120px;
 	height: auto;
@@ -96,7 +99,31 @@ table tr td img {
 #mapid { 
 	height: 180px; 
 }
+#summary{
+	margin: 50px;
+}
+#Conclusion{
+	margin: 50px;
+}
+.col-md-12{
+	text-align: center;
+}
+.col-md-6{
+	text-align: center;
+}
+#weatherSearch{
+	width: 50%;
 
+	margin-bottom: 50px;
+}
+#Austin{
+	width: 75%;
+	margin-bottom: 50px;
+}
+#indyZip{
+	width: 75%;
+	margin-bottom: 50px;
+}
 
 /* removes Brand space from navbar */
 

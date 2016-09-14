@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en-US">
+
+   <head>
+     <title>Sam Lesem's Weather App</title>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="description" content="Sam Lesem's first website">
+     <meta name="keywords" content="First Website, Sam Lesem, Samuel Lesem, Lesem">
+     <meta name="author" content="Sam Lesem">
+     <script type="text/javascript" src="js/jquery.js"></script>
+     <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+     <link rel="stylesheet" href="fontAwesome/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="styles.css">
+     <script>
+
+     </script>
+   </head>
+
+<body>
+
+    <nav>    
+        <ul class="topNav" id="myTopnav">
+            <li><a href="#me">About Me</a></li>
+            <li><a href="weatherAppPics.html">Weather App</a></li>
+            <li class="icons"><a href="https://www.linkedin.com/in/samuel-lesem-a355786a"><i class="fa fa-lg fa-linkedin-square" aria-hidden="true"></i></a></li>
+            <li class="icons"><a href="https://plus.google.com/u/2/107009819863869676782"><i class="fa fa-lg fa-google-plus"></i></a></li>
+            <li class="icons"><a href="https://github.com/lesesb12"><i class="fa fa-lg fa-github" aria-hidden="true"></i></a></li>
+        </ul>
+    </nav>
+<div class="row">
+    <div class="col-md-12">
+        <p id="summary">     I created a web application using the OpenWeatherMap API.  While developing this app, 
+    I learned how to use Javascript and jQuery to make Ajax calls to the API.  After setting up my site using GitHub Pages,
+    I was stumped on why the data from the API would not load after entering a city or zip code.  I finally figured out 
+    that OpenWeatherMap does not provide a secure endpoint in their free service. Below are pictures of my weather application in action.</p>    
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <img id="weatherSearch" src="pictures/weatherSearch.png" class="img-thumbnail">
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <img id="Austin" src="pictures/Austin.png" class="img-thumbnail">
+    </div>
+    <div class="col-md-6">
+        <img id="indyZip" src="pictures/indyZip.png" class="img-thumbnail">
+    </div>
+</div>
+    <p id="Conclusion"> If you would like to check out my web application, <a href=weather.html>click here</a>.
+    You will have to tell whichever web browser you use to load the unsafe scripts, which is designated by clicking on a shield symbol in the URL search bar.</p>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+<footer>
+
+</footer>
+</html>

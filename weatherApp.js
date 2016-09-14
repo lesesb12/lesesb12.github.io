@@ -1,8 +1,8 @@
 var api_key = '8fb0eed6b05b1cc6ada64305212f246b';
-var weather_Indy = 'http://api.openweathermap.org/data/2.5/weather?zip=46256,us&appid=8fb0eed6b05b1cc6ada64305212f246b&units=imperial';
+//var weather_Indy = 'http://api.openweathermap.org/data/2.5/weather?zip=46256,us&appid=8fb0eed6b05b1cc6ada64305212f246b&units=imperial';
 var weatherUrl = 'http://api.openweathermap.org/data/2.5/weather?';
 var forecastUrl = 'http://api.openweathermap.org/data/2.5/forecast/daily?';
-var googleMapKey = 'AIzaSyBxWLSmXIBvdADp0okbNDM7E-9c8GNS2qw';
+//var googleMapKey = 'AIzaSyBxWLSmXIBvdADp0okbNDM7E-9c8GNS2qw';
 //var city = 'Indianapolis';
 
 $(document).ready(function(){
